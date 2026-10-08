@@ -2,10 +2,10 @@
 
 session_start();
 
-$_SESSION["nom"] = $_POST["nom"];
-$_SESSION["cognom"] = $_POST["cognom"];
+$_SESSION["nombre"] = $_POST["nombre"];
+$_SESSION["apellido"] = $_POST["apellido"];
 
 
-echo $_POST["nom"] . " " . $_POST["cognom"];
+echo $_POST["nombre"] . " " . $_POST["apellido"];
 
 ?>
